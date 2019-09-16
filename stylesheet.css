@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Saira+Semi+Condensed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h5{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+/*writing*/
+a.info{
+    color: black;
+}
+li{
+    color: black;
+}
+/*bubble */
+a.info:hover span{
+    border:1px solid #085DAD;
+    background-color:#ADB6B5; 
+}
+a.info:hover span{
+    color: black;
+}
+/*Background locor*/
+body{
+    background: linear-gradient(#8CC739, white, #31C3E7);
+}
+/*dot color*/
+.title{
+    color: #085DAD;
+}
+
+/*line color*/
+#box{
+    background-color: #085DAD;
+}
+
+
+a.info{
+    position:relative; /*this is the key*/
+    text-decoration:none;
+    text-align:center;
+    animation: box_animation 0.8s forwards;
+  }
+
+
+
+a.info span{display: none}
+
+a.info:hover span{ /*the span will display just on :hover state*/
+    display:block;
+    position:absolute;
+    bottom: 3.5vh;
+    right: -10vw;
+    width: 25vw;
+    z-index: 2;
+    border-radius: 1vw;
+    text-align: center;
+    padding:10px;
+    animation: box_animation 0.8s forwards;
+  }
+
+  
+
+
+
+
+  @keyframes box_animation {
+    0% {
+      opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+
+@keyframes bar_animation1 {
+    0% {
+      opacity: 0;
+      height: 0%;
+    }
+    100% {
+        height: 10vh;
+        opacity: 1;
+    }
+  }
+@keyframes bar_animation3 {
+    0% {
+      opacity: 0;
+      height: 0%;
+    }
+    100% {
+        height: 12vh;
+        opacity: 1;
+    }
+  }
+@keyframes bar_animation4 {
+    0% {
+      opacity: 0;
+      height: 0%;
+    }
+    100% {
+        height: 15vh;
+        opacity: 1;
+    }
+  }
+@keyframes bar_animation5 {
+    0% {
+      opacity: 0;
+      height: 0%;
+    }
+    100% {
+        height: 18vh;
+        opacity: 1;
+    }
+  }
+@keyframes bar_animation6 {
+    0% {
+      opacity: 0;
+      height: 0%;
+    }
+    100% {
+        height: 21.5vh;
+        opacity: 1;
+    }
+  }
+@keyframes list_animation {
+    0% {
+        opacity: 0;
+        
+        
+    }
+    50% {
+        
+        opacity: 0;
+    }
+    100% {
+        width: 14vw;
+        opacity: 1;
+    }
+    }  
+body {
+    
+    
+    height: 100vh;
+    font-size: 2vh;
+}
+h5{
+    font-size: 3vh;
+}
+ul{
+    padding: 0;
+    z-index: 0;
+    list-style-position: inside;
+}
+.title{
+    font-size: 3vh;
+    position: relative;
+    left: -0.05vw;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+header {
+    height: 10vh;
+}
+#logo{
+    height: 8vh;
+    padding-top: 2vh;
+    padding-left: 2vh;
+}
+#road{
+    
+    width: 90vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    height: 45vh;
+    padding-top: 25vh;
+    
+}
+
+
+#selection{
+    position: relative;
+    text-align: left;
+}
+
+#learner_diagnosis{
+    animation: list_animation 2s forwards; 
+    position: absolute;
+    bottom: 45vh;
+    left: 8.65vw;
+}
+#box1{
+    position: absolute;
+    bottom: 45.2vh;
+    left: 8.8vw;
+    width: 0.07vw;
+    background-color: inherit;
+    animation: bar_animation1 2s forwards;
+}
+#diagnostic_debrief{
+    animation: list_animation 2s forwards; 
+    position: absolute;
+    bottom: 45vh;
+    left: 26.05vw;
+
+}
+#box2{
+    position: absolute;
+    bottom: 45vh;
+    left: 26.2vw;
+    width: 0.1vw;
+    background-color: inherit;
+    animation: bar_animation6 2s forwards; 
+}
+#social_learning{
+    animation: list_animation 2s forwards; 
+    position: absolute;
+    bottom: 45vh;
+    left: 43.65vw;
+}
+#box3{
+    position: absolute;
+    bottom: 45vh;
+    left: 43.8vw;
+    width: 0.07vw;
+    background-color: inherit;
+    animation: bar_animation4 2s forwards; 
+}
+#transformational_learning{
+    animation: list_animation 2s forwards; 
+    position: absolute;
+    bottom: 45vh;
+    left: 61.25vw;
+}
+#box4{
+    position: absolute;
+    bottom: 45vh;
+    left: 61.4vw;
+    width: 0.1vw;
+    background-color: inherit;
+    animation: bar_animation4 2s forwards; 
+}
+#coaching{
+    animation: list_animation 2s forwards; 
+    position: absolute;
+    bottom: 45vh;
+    left: 78.85vw;
+}
+#box5{
+    position: absolute;
+    bottom: 45vh;
+    left: 79vw;
+    width: 0.1vw;
+    background-color: inherit;
+    animation: bar_animation3 2s forwards; 
+}
+#scaled_agile{
+    animation: list_animation 2s forwards; 
+    position: absolute;
+    top: 52vh;
+    left: 81.15vw;;
+}
+#box10{
+    position: absolute;
+    top: 52vh;
+    left: 81.3vw;
+    width: 0.1vw;
+    background-color: inherit;
+    animation: bar_animation3 2s forwards; 
+}
+#digital_learning{
+    animation: list_animation 2s forwards; 
+    position: absolute;
+    top: 52vh;
+    left: 66.85vw;
+}
+#box9{
+    position: absolute;
+    top: 52vh;
+    left: 67vw;
+    width: 0.07vw;
+    background-color: inherit;
+    animation: bar_animation3 2s forwards; 
+}
+#mns_learning{
+    animation: list_animation 2s forwards; 
+    position: absolute;
+    top: 52vh;
+    left: 53.05vw;
+}
+#box8{
+    position: absolute;
+    top: 52vh;
+    left: 53.2vw;
+    width: 0.1vw;
+    background-color: inherit;
+    animation: bar_animation6 2s forwards; 
+}
+#continnual_learning{
+    animation: list_animation 2s forwards; 
+    position: absolute;
+    top: 52vh;
+    left: 35.35vw;
+}
+#box7{
+    position: absolute;
+    top: 52vh;
+    left: 35.5vw;
+    width: 0.1vw;
+    background-color: inherit;
+    animation: bar_animation5 2s forwards; 
+}
+#outcomes{
+    animation: list_animation 2s forwards; 
+    position: absolute;
+    top: 52vh;
+    left: 17.85vw;
+}
+#box6{
+    position: absolute;
+    top: 52vh;
+    left: 18vw;
+    width: 0.1vw;
+    background-color: inherit;
+    animation: bar_animation5 2s forwards; 
+}
+
+
+    
+
+
+
+
+
+
+
+
+
