@@ -30,7 +30,7 @@ a.info:hover span{
 
 /*Background locor*/
 body{
-    background: linear-gradient(#8CC739, white, #31C3E7);
+    background: linear-gradient(#6e3983, white, #31C3E7);
 }
 /*dot color*/
 .title{
@@ -179,6 +179,12 @@ header {
     height: 8vh;
     padding-top: 2vh;
     padding-left: 2vh;
+}
+#mns{
+    height: 8vh;
+    padding-top: 2vh;
+    padding-right: 2vh;
+    float: right;
 }
 #road{
     
