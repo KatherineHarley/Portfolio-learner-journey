@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    z-index: 0;
 }
 
 h5{
@@ -14,6 +15,7 @@ body{
 /*writing*/
 a.info{
     color: black;
+    z-index: 0;
 }
 li{
     color: black;
@@ -21,11 +23,11 @@ li{
 /*bubble */
 a.info:hover span{
     border:1px solid #085DAD;
-    background-color: white; 
-}
-a.info:hover span{
+    background-color:#ADB6B5; 
     color: black;
+    z-index: 1000;
 }
+
 /*Background locor*/
 body{
     background: linear-gradient(#8CC739, white, #31C3E7);
@@ -50,7 +52,9 @@ a.info{
 
 
 
-a.info span{display: none}
+a.info span{
+    display: none;
+}
 
 a.info:hover span{ /*the span will display just on :hover state*/
     display:block;
@@ -58,7 +62,6 @@ a.info:hover span{ /*the span will display just on :hover state*/
     bottom: 3.5vh;
     right: -10vw;
     width: 25vw;
-    z-index: 2;
     border-radius: 1vw;
     text-align: center;
     padding:10px;
@@ -79,16 +82,17 @@ a.info:hover span{ /*the span will display just on :hover state*/
     }
     100% {
         opacity: 1;
+        z-index: 0;
     }
   }
 
-@keyframes bar_animation1 {
+@keyframes bar_animation2 {
     0% {
       opacity: 0;
       height: 0%;
     }
     100% {
-        height: 10vh;
+        height: 13vh;
         opacity: 1;
     }
   }
@@ -128,7 +132,7 @@ a.info:hover span{ /*the span will display just on :hover state*/
       height: 0%;
     }
     100% {
-        height: 21.5vh;
+        height: 21vh;
         opacity: 1;
     }
   }
@@ -158,7 +162,6 @@ h5{
 }
 ul{
     padding: 0;
-    z-index: 0;
     list-style-position: inside;
 }
 .title{
@@ -205,7 +208,7 @@ header {
     left: 8.8vw;
     width: 0.07vw;
     background-color: inherit;
-    animation: bar_animation1 2s forwards;
+    animation: bar_animation2 2s forwards;
 }
 #diagnostic_debrief{
     animation: list_animation 2s forwards; 
