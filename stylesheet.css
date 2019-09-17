@@ -23,14 +23,14 @@ li{
 /*bubble */
 a.info:hover span{
     border:1px solid #085DAD;
-    background-color:#ADB6B5; 
+    background-color:white; 
     color: black;
     z-index: 1000;
 }
 
 /*Background locor*/
 body{
-    background: linear-gradient(#6e3983, white, #31C3E7);
+    background: linear-gradient( white, #31C3E7, #6e3983);
 }
 /*dot color*/
 .title{
