@@ -30,7 +30,7 @@ a.info:hover span{
 
 /*Background locor*/
 body{
-    background: linear-gradient( white, #31C3E7, #6e3983);
+    background: linear-gradient(  #31C3E7, white, #6e3983);
 }
 /*dot color*/
 .title{
