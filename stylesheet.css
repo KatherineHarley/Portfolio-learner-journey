@@ -173,15 +173,15 @@ ul{
 }
 
 header {
-    height: 10vh;
+    height: 12vh;
 }
 #logo{
-    height: 10vh;
-    padding-top: 2vh;
-    padding-left: 2vh;
+    height: 12vh;
+    padding-top: 1vh;
+    padding-left: 1vh;
 }
 #mns{
-    height: 8vh;
+    height: 7vh;
     padding-top: 2vh;
     padding-right: 2vh;
     float: right;
