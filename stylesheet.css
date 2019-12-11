@@ -30,7 +30,7 @@ a.info:hover span{
 
 /*Background locor*/
 body{
-    background: linear-gradient(  #31C3E7, white, #6e3983);
+    background: linear-gradient(  #31C3E7, white, #9662aa);
 }
 /*dot color*/
 .title{
@@ -70,7 +70,17 @@ a.info:hover span{ /*the span will display just on :hover state*/
 
   
 
-
+  @keyframes bar_animationW {
+    0% {
+      opacity: 0;
+      width: 0;
+      
+    }
+    100% {
+        width: 14vw;
+        opacity: 1;
+    }
+  }
 
 
   @keyframes box_animation {
@@ -92,7 +102,7 @@ a.info:hover span{ /*the span will display just on :hover state*/
       height: 0%;
     }
     100% {
-        height: 13vh;
+        height: 9vh;
         opacity: 1;
     }
   }
@@ -106,6 +116,16 @@ a.info:hover span{ /*the span will display just on :hover state*/
         opacity: 1;
     }
   }
+  @keyframes bar_animation35 {
+    0% {
+      opacity: 0;
+      height: 0%;
+    }
+    100% {
+        height: 17vh;
+        opacity: 1;
+    }
+  }
 @keyframes bar_animation4 {
     0% {
       opacity: 0;
@@ -116,13 +136,23 @@ a.info:hover span{ /*the span will display just on :hover state*/
         opacity: 1;
     }
   }
+  @keyframes bar_animation45 {
+    0% {
+      opacity: 0;
+      height: 0%;
+    }
+    100% {
+        height: 20vh;
+        opacity: 1;
+    }
+  }
 @keyframes bar_animation5 {
     0% {
       opacity: 0;
       height: 0%;
     }
     100% {
-        height: 18vh;
+        height: 19vh;
         opacity: 1;
     }
   }
@@ -132,7 +162,7 @@ a.info:hover span{ /*the span will display just on :hover state*/
       height: 0%;
     }
     100% {
-        height: 21vh;
+        height: 21.5vh;
         opacity: 1;
     }
   }
@@ -147,7 +177,7 @@ a.info:hover span{ /*the span will display just on :hover state*/
         opacity: 0;
     }
     100% {
-        width: 14vw;
+        width: 16vw;
         opacity: 1;
     }
     }  
@@ -192,7 +222,7 @@ header {
     padding-left: 2vw;
     padding-right: 2vw;
     height: 45vh;
-    padding-top: 25vh;
+    padding-top: 10vh;
     
 }
 
@@ -205,41 +235,41 @@ header {
 #learner_diagnosis{
     animation: list_animation 2s forwards; 
     position: absolute;
-    bottom: 45vh;
+    top: 54.2vh;
     left: 8.65vw;
 }
 #box1{
     position: absolute;
-    bottom: 45.2vh;
+    top: 54.2vh;
     left: 8.8vw;
     width: 0.07vw;
     background-color: inherit;
-    animation: bar_animation2 2s forwards;
+    animation: bar_animation3 2s forwards;
 }
 #diagnostic_debrief{
     animation: list_animation 2s forwards; 
     position: absolute;
-    bottom: 45vh;
+    top: 54.2vh;
     left: 26.05vw;
 
 }
 #box2{
     position: absolute;
-    bottom: 45vh;
+    top: 54.2vh;
     left: 26.2vw;
     width: 0.1vw;
     background-color: inherit;
-    animation: bar_animation6 2s forwards; 
+    animation: bar_animation5 2s forwards; 
 }
 #social_learning{
     animation: list_animation 2s forwards; 
     position: absolute;
-    bottom: 45vh;
+    top: 54.2vh;
     left: 43.65vw;
 }
 #box3{
     position: absolute;
-    bottom: 45vh;
+    top: 54.2vh;
     left: 43.8vw;
     width: 0.07vw;
     background-color: inherit;
@@ -248,40 +278,40 @@ header {
 #transformational_learning{
     animation: list_animation 2s forwards; 
     position: absolute;
-    bottom: 45vh;
+    top: 54.2vh;
     left: 61.25vw;
 }
 #box4{
     position: absolute;
-    bottom: 45vh;
+    top: 54.2vh;
     left: 61.4vw;
-    width: 0.1vw;
-    background-color: inherit;
-    animation: bar_animation4 2s forwards; 
-}
-#coaching{
-    animation: list_animation 2s forwards; 
-    position: absolute;
-    bottom: 45vh;
-    left: 78.85vw;
-}
-#box5{
-    position: absolute;
-    bottom: 45vh;
-    left: 79vw;
     width: 0.1vw;
     background-color: inherit;
     animation: bar_animation3 2s forwards; 
 }
+#coaching{
+    animation: list_animation 2s forwards; 
+    position: absolute;
+    top: 54.2vh;
+    left: 78.85vw;
+}
+#box5{
+    position: absolute;
+    top: 54.2vh;
+    left: 79vw;
+    width: 0.1vw;
+    background-color: inherit;
+    animation: bar_animation2 2s forwards; 
+}
 #scaled_agile{
     animation: list_animation 2s forwards; 
     position: absolute;
-    top: 52vh;
+    bottom: 27.5vh;
     left: 81.15vw;;
 }
 #box10{
     position: absolute;
-    top: 52vh;
+    bottom: 27.5vh;
     left: 81.3vw;
     width: 0.1vw;
     background-color: inherit;
@@ -290,12 +320,12 @@ header {
 #digital_learning{
     animation: list_animation 2s forwards; 
     position: absolute;
-    top: 52vh;
+    bottom: 27.5vh;
     left: 66.85vw;
 }
 #box9{
     position: absolute;
-    top: 52vh;
+    bottom: 27.5vh;
     left: 67vw;
     width: 0.07vw;
     background-color: inherit;
@@ -304,48 +334,68 @@ header {
 #mns_learning{
     animation: list_animation 2s forwards; 
     position: absolute;
-    top: 52vh;
-    left: 53.05vw;
+    bottom: 27.5vh;
+    left: 52.55vw;
 }
 #box8{
     position: absolute;
-    top: 52vh;
-    left: 53.2vw;
+    bottom: 27.5vh;
+    left: 52.7vw;
     width: 0.1vw;
     background-color: inherit;
-    animation: bar_animation6 2s forwards; 
+    animation: bar_animation2 2s forwards; 
 }
 #continnual_learning{
     animation: list_animation 2s forwards; 
     position: absolute;
-    top: 52vh;
+    bottom: 27.5vh;
     left: 35.35vw;
 }
 #box7{
     position: absolute;
-    top: 52vh;
+    bottom: 27.5vh;
     left: 35.5vw;
     width: 0.1vw;
     background-color: inherit;
-    animation: bar_animation5 2s forwards; 
+    animation: bar_animation2 2s forwards; 
 }
 #outcomes{
     animation: list_animation 2s forwards; 
     position: absolute;
-    top: 52vh;
+    bottom: 27.5vh;
     left: 17.85vw;
 }
 #box6{
     position: absolute;
-    top: 52vh;
+    bottom: 27.5vh;
     left: 18vw;
     width: 0.1vw;
     background-color: inherit;
-    animation: bar_animation5 2s forwards; 
+    animation: bar_animation35 2s forwards; 
 }
 
-
-    
+#mnsLearning {
+    animation: list_animation 2s forwards;
+    position: absolute;
+    bottom: 9vh;
+    right: 7vw;
+}
+#box11{
+    position: absolute;
+    background-color: #085DAD;
+    bottom: 9vh;
+    right: 10.5vw;
+    height: 0.2vh;
+    animation: bar_animationW 2s forwards; 
+}   
+#mnsCircle{
+    padding: 0;
+    margin: 0;
+    height: 6vw;
+    position: absolute;
+    bottom: 3vh;
+    right: 5vw;
+} 
 
 
 
